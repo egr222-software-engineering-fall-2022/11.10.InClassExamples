@@ -3,28 +3,27 @@ public class MiniDuckSimulator {
         Duck mallard = new MallardDuck();
         mallard.display();
         mallard.performQuack();
-        mallard.swim();
         mallard.performFly();
+        mallard.swim();
 
         Duck redheadDuck = new RedheadDuck();
         redheadDuck.display();
         redheadDuck.performQuack();
-        redheadDuck.swim();
         redheadDuck.performFly();
+        redheadDuck.swim();
 
         Duck rubberDuck = new RubberDuck();
         rubberDuck.display();
         rubberDuck.performQuack();
-        rubberDuck.swim();
         rubberDuck.performFly();
+        rubberDuck.swim();
 
         Duck decoyDuck = new DecoyDuck();
         decoyDuck.display();
         decoyDuck.performQuack();
-        decoyDuck.swim();
         decoyDuck.performFly();
+        decoyDuck.swim();
 
-        // supercharge our duck!
         decoyDuck.setFlyBehavior(new FlyWithRocketPower());
         decoyDuck.performFly();
     }
